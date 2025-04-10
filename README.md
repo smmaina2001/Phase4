@@ -52,14 +52,14 @@ Navigate into the server directory and set up the database.
 
 cd server
 flask db upgrade
-Seed the Database from CSV
+
 
 python seed.py
 Running the Application
 Run the Flask development server:
 
 python app.py
-Or using the Flask CLI:
+
 
 flask run
 Access the API at http://127.0.0.1:5555.
@@ -79,7 +79,7 @@ SQLite
 Faker (for seed data)
 CSV (as seed input)
 Support & Contact
-For any issues or questions, please contact [ian.cheruiyot1@student.moringaschool.com].
+
 
 License
 This project is licensed under the MIT License.
